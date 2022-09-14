@@ -1,10 +1,26 @@
+@font-face {
+  font-family: 'Breaker The Brush';
+  src: url('font/BreakerTheBrush-Regular.woff2') format('woff2'),
+      url('font/BreakerTheBrush-Regular.woff') format('woff'),
+      url('font/BreakerTheBrush-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
     margin: 0;
-    background: lightgray;
-    text-align: center;
-    font-family: sans-serif;
-    color: #fefefe;
-  }
+    text-align: justify;
+    color: whitesmoke;
+    font-family: 'Breaker The Brush'
+    }
+
+    h1 {
+        color: red;
+        font-family: 'Breaker The Brush';
+    }
+
+
   .container {
     position: relative;
     width: 320px;
@@ -29,6 +45,7 @@ body {
     background-size: cover;
     /* box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5); */
     display: flex;
+    margin: 0;
   }
   
   span {
@@ -62,7 +79,7 @@ body {
     background-image: url(../images/carousel/sac-de-frappe-500-strike-kick-boxing-noir\ \(8\).jpg);
     transform: rotateY(280deg) translateZ(430px); }
   .carousel__face:nth-child(9) {
-    background-image: url(../images/carousel/gants-de-boxe-sparring-900-noirargent\ \(5\).jpg.png);
+    background-image: url(../images/carousel/Logo_Lions.png);
     transform: rotateY(320deg) translateZ(430px); }
   
   
