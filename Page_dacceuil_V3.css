@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#top {
+  background: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.titre {
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+header p {
+  text-align: center;
+}
+
+.login {
+  float: right;
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+
+/* =================================================================        ============ */
+/*Navigation */
+
+#navigation {
+  position: fixed;
+  top: 6%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 2px solid rgb(222, 188, 15);
+  box-shadow: 0 5px 10px rgb(0, 0, 0, .1);
+  padding: 0px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #333;
+}
+
+/* class "catégorie" */
+
+.categorie ul {
+
+  list-style: none;
+}
+
+.categorie ul li {
+  position: relative;
+  float: left;
+}
+
+.categorie ul li a {
+  font-size: 20px;
+  margin: 7px;
+  padding: 7px;
+  color: #333;
+  display: block;
+  text-decoration: none;
+
+}
+
+.categorie ul li a:hover {
+  background: rgb(222, 188, 15);
+  color: white;
+
+
+}
+
+.categorie ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: rgb(238, 235, 235);
+  display: none;
+}
+
+.categorie ul li ul li {
+  width: 100%;
+  border-top: 1px solid rgb(0, 0, 0, .1);
+}
+
+
+
+.categorie ul li:hover ul {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* =================================================================        ============ */
+#carouselExampleIndicators {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5%;
+  padding: 10%;
+
+}
+
+
+/* =================================================================        ============ */
+
+
+/*footer*/
+
+
+footer {
+
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+
+
+}
+
+.footer1 {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+
+}
+
+.footer1 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style: none;
+
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer1 li {
+  padding: 0 10px;
+}
+
+.footer1 ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer1 ul a:hover {
+  opacity: 1;
+}
+
+.footer1 .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer1 .social>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer1 .social>a:hover {
+  opacity: 0.9;
+}
+
+.footer1 .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+Footer © 2022 GitHub,
+Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About
