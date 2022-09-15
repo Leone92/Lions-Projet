@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -32,7 +33,7 @@ header p {
 /* =================================================================        ============ */
 /*Navigation */
 
-.navbar{
+.navbar{ 
   position: fixed;
   padding: 50px;
   display: flex;
@@ -139,8 +140,6 @@ margin-left: -100%;
   background: rgb(222, 188, 15);
   color: white;
   z-index: 1000;
-
-
 }
 
 
@@ -161,7 +160,6 @@ z-index: 1001;
 .navbar .navlinks ul  li {
   margin: 25px 0;
 }
-
 
 }
 
@@ -184,103 +182,34 @@ z-index: 1001;
 
 /* CAROUSEL */
 
-body {
-  margin: 0;
-  background: lightgray;
-  text-align: center;
-  font-family: sans-serif;
-  color: #fefefe;
-}
-.container {
-  position: relative;
-  width: 320px;
-  margin: 100px auto 0 auto;
-  perspective: 1000px;
-}
-
-.carousel {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d; 
-  animation: rotate360 60s infinite forwards linear;
-}
-.carousel__face { 
-  position: absolute;
-  width: 300px;
-  height: 187px;
-  top: 20px;
-  left: 10px;
-  right: 10px;
-  background-size: cover;
-  /* box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5); */
-  display: flex;
-}
-
-span {
-  margin: auto;
-  font-size: 2rem;
-}
+/*@font-face {
+  font-family: 'Breaker The Brush';
+  src: url('font/BreakerTheBrush-Regular.woff2') format('woff2'),
+      url('font/BreakerTheBrush-Regular.woff') format('woff'),
+      url('font/BreakerTheBrush-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}*/
 
 
-.carousel__face:nth-child(1) {
-  background-image: url(../images/carousel/casque-de-boxe-adulte-ouvert-900-noir\ \(5\).jpg);
-  transform: rotateY(  0deg) translateZ(430px); }
-.carousel__face:nth-child(2) { 
-  background-image: url(../images/carousel/mitaines-de-cardio-boxing-500-noires\ \(5\).jpg);
-    transform: rotateY( 40deg) translateZ(430px); }
-.carousel__face:nth-child(3) {
-  background-image: url(../images/carousel/sac-de-frappe-500-angle-bordeaux\ \(7\).jpg);
-  transform: rotateY( 80deg) translateZ(430px); }
-.carousel__face:nth-child(4) {
-  background-image: url(../images/carousel/protege-tibias-pieds-de-kick-boxing-900-adulte\ \(5\).jpg);
-  transform: rotateY(120deg) translateZ(430px); }
-.carousel__face:nth-child(5) { 
-  background-image: url(../images/carousel/sac-de-frappe-500-strike-kick-boxing-noir\ \(7\).jpg);
- transform: rotateY(160deg) translateZ(430px); }
-.carousel__face:nth-child(6) { 
-  background-image: url(../images/carousel/protege-tibias-pieds-de-kick-boxing-900-adulte\ \(6\).jpg);
- transform: rotateY(200deg) translateZ(430px); }
-.carousel__face:nth-child(7) { 
-  background-image: url(../images/carousel/casque-de-boxe-adulte-ouvert-900-noir\ \(7\).jpg);
- transform: rotateY(240deg) translateZ(430px); }
-.carousel__face:nth-child(8) {
-  background-image: url(../images/carousel/sac-de-frappe-500-strike-kick-boxing-noir\ \(8\).jpg);
-  transform: rotateY(280deg) translateZ(430px); }
-.carousel__face:nth-child(9) {
-  background-image: url(../images/carousel/gants-de-boxe-sparring-900-noirargent\ \(5\).jpg.png
-  transform: rotateY(320deg) translateZ(430px); }
-
-
-
-@keyframes rotate360 {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(-360deg);
-  }
-}
 /* =================================================================        ============ */
 
 
 /*footer*/
 
 
-footer {
+ footer { 
 
   position: relative;
   bottom: 0px;
   width: 100%;
-
-
 }
 
-.footer1 {
-  padding: 40px 0;
-  background-color: #ffffff;
+ .footer1 {
+  padding: 0;
+  /* police decriture */
   color: #4b4c4d;
-
 }
 
 .footer1 ul {
@@ -289,7 +218,6 @@ footer {
   justify-content: space-evenly;
   padding: 0;
   list-style: none;
-
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 0;
@@ -341,4 +269,4 @@ footer {
 }
 
 Footer © 2022 GitHub,
-Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About
+Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About */

@@ -1,7 +1,7 @@
 
-    <div class="footer1">
+   <div class="footer1">  
         <footer>
-            <div class="footer1"></div>
+            
             <div class="social">
                 <i class="icon ion-social-twitter"></i></a><a href="#"> <img
                         src="./images/twitter.png" alt="">
@@ -37,4 +37,5 @@
 </script>
 
 
-</html>
+</html> 
+ 

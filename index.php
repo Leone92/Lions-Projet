@@ -11,23 +11,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/caroussel.css">
 
 </head>
-<body>
+<header>
 <?php
-include_once 'includes/header.php';
+  require_once 'includes/header.php';
 ?>
-<!-- carousel -->
+</header>
+<body>
 
+<!-- carousel -->
+ <div class="carousel1"> 
+        <div class="container">
+            <div class="carousel">
+              <div class="carousel__face"><span>Workout</span></div>
+              <div class="carousel__face"><span>Discipline</span></div>
+              <div class="carousel__face"><span>Motivation</span></div>
+              <div class="carousel__face"><span>Work Hard</span></div>
+              <div class="carousel__face"><span>Passion</span></div>
+              <div class="carousel__face"><span>No Pain No Gain</span></div>
+              <div class="carousel__face"><span>Feel The Pain</span></div>
+              <div class="carousel__face"><span>Push The Limits</span></div>
+              <div class="carousel__face"><span></span></div>
+            </div>
+        </div>
+  </div>
 <!-- carousel -->
     
 </body>
 
 
 <?php
-
   require_once 'includes/footer.php';
-
 ?>
 
 <!-- git add .
