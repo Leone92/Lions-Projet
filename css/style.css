@@ -13,7 +13,7 @@
 }
 
 .titre {
-  color: #ffffff;
+  color: red;
   font-size: 30px;
   text-decoration: none;
 }
@@ -28,10 +28,8 @@ header p {
   color: white;
   text-decoration: none;
 }
-
-
 /* =================================================================        ============ */
-/*Navigation */
+/* Navigation
 
 .navbar{ 
   position: fixed;
@@ -51,24 +49,24 @@ header p {
   z-index: 1000;
   }
   
-
 .navbar .recherche{
   display: flex;
 }
+
 .logo{
 left: 30px;
-
 }
-
 
 .navlinks ul {
 
   list-style: none;
 }
+
 .navlinks ul li {
   position: relative;
   float: left;
 }
+
 .navlinks ul li a {
   font-size: 20px;
   margin: 7px;
@@ -76,7 +74,6 @@ left: 30px;
   color: #333;
   display: block;
   text-decoration: none;
-
 }
 
 .navlinks ul li a:hover {
@@ -111,7 +108,6 @@ left: 30px;
   right: 50px;
 }
 
-
 @media screen and (max-width:900px ){
 
   .navbar {
@@ -132,8 +128,6 @@ justify-content: center;
 align-items: center;
 background-color: #333;
 margin-left: -100%;
-
-
 }
 
 .navlinks ul li a:hover {
@@ -142,68 +136,32 @@ margin-left: -100%;
   z-index: 1000;
 }
 
-
 .mobile-menu{
   margin-left: 0;
 }
 
-
 .navlinks ul li a{
   color: #dcb31e;
 }
+
  .navlinks ul {
 display: flex;
 flex-direction: column;
 z-index: 1001;
 
-  }
+}
 .navbar .navlinks ul  li {
   margin: 25px 0;
-}
-
-}
-
-
-
-
-
+}}
 
 /* =================================================================        ============ */
-/* #carouselExampleIndicators {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin: 5%;
-  padding: 10%;
-
-}*/
-
-/* CAROUSEL */
-
-/*@font-face {
-  font-family: 'Breaker The Brush';
-  src: url('font/BreakerTheBrush-Regular.woff2') format('woff2'),
-      url('font/BreakerTheBrush-Regular.woff') format('woff'),
-      url('font/BreakerTheBrush-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}*/
-
-
-/* =================================================================        ============ */
-
-
 /*footer*/
 
-
  footer { 
-
   position: relative;
   bottom: 0px;
   width: 100%;
+  background-color: white;
 }
 
  .footer1 {
