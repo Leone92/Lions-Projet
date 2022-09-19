@@ -33,7 +33,7 @@ include_once 'includes/header.php';
 
 
 
-    <main class="container">
+<main class="container">
         <h1 class="text-center">Articles</h1>
         <section>
             <h2>
@@ -71,8 +71,8 @@ include_once 'includes/header.php';
 
 
 
- <!--  
-                        <div class= "image_article">
+   
+                        <!-- <div class= "image_article"> 
                             <img class="imagearticle" src="<?php echo htmlspecialchars($product['image']); ?>" alt="">
                         </div>
 
