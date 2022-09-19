@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'kashima_brush_demoregular';
+  src: url('kashima_demo-webfont.woff2') format('woff2'),
+       url('kashima_demo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 *{
   margin: 0;
@@ -18,9 +26,15 @@
 }
 
 .titre {
-  color: #ffffff;
-  font-size: 30px;
+  color: white;
+  font-size: 55px;
   text-decoration: none;
+  font-family: 'kashima_brush_demoregular';
+}
+
+.titre:hover
+{
+    color : white;
 }
 
 header p {
