@@ -3,7 +3,12 @@
   margin: 0;
   padding: 0;
 }
+#det  {
+  float: right;
+ 
+  padding-top: 10px;
 
+}
 #top {
   background: black;
   width: 100%;
@@ -13,7 +18,7 @@
 }
 
 .titre {
-  color: red;
+  color: #ffffff;
   font-size: 30px;
   text-decoration: none;
 }
@@ -28,8 +33,10 @@ header p {
   color: white;
   text-decoration: none;
 }
+
+
 /* =================================================================        ============ */
-/* Navigation
+/*Navigation */
 
 .navbar{ 
   position: fixed;
@@ -45,28 +52,30 @@ header p {
   background: white;
   border: 2px solid rgb(222, 188, 15);
   box-shadow: 0 5px 10px rgb(0, 0, 0, .1);
-  padding: 0px 7%;
+  padding: 0px 10%;
   z-index: 1000;
   }
   
+
 .navbar .recherche{
   display: flex;
+  justify-items: center;
+  
 }
-
 .logo{
 left: 30px;
+
 }
+
 
 .navlinks ul {
 
   list-style: none;
 }
-
 .navlinks ul li {
   position: relative;
   float: left;
 }
-
 .navlinks ul li a {
   font-size: 20px;
   margin: 7px;
@@ -74,6 +83,7 @@ left: 30px;
   color: #333;
   display: block;
   text-decoration: none;
+
 }
 
 .navlinks ul li a:hover {
@@ -100,6 +110,15 @@ left: 30px;
 .navlinks ul li:hover ul {
   display: block;
 }
+
+.recherche input {
+  border-radius: 10px;
+  position:relative;
+  margin: 10px;
+  margin-top: 5%;
+  box-shadow: 0 0 1px 1px black, 0 0 0 0 white;
+}
+
 
 .navbar .menu-hamburger {
   display: none;
@@ -128,6 +147,8 @@ justify-content: center;
 align-items: center;
 background-color: #333;
 margin-left: -100%;
+
+
 }
 
 .navlinks ul li a:hover {
@@ -136,32 +157,75 @@ margin-left: -100%;
   z-index: 1000;
 }
 
+
 .mobile-menu{
   margin-left: 0;
 }
 
+
 .navlinks ul li a{
   color: #dcb31e;
 }
-
  .navlinks ul {
 display: flex;
 flex-direction: column;
 z-index: 1001;
 
-}
+  }
 .navbar .navlinks ul  li {
   margin: 25px 0;
-}}
+}
+
+}
+
+
+
+
+
+
+
 
 /* =================================================================        ============ */
+/* #carouselExampleIndicators {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5%;
+  padding: 10%;
+
+}*/
+
+/* CAROUSEL */
+
+/*@font-face {
+  font-family: 'Breaker The Brush';
+  src: url('font/BreakerTheBrush-Regular.woff2') format('woff2'),
+      url('font/BreakerTheBrush-Regular.woff') format('woff'),
+      url('font/BreakerTheBrush-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}*/
+
+
+/* =================================================================        ============ */
+.article {
+  color: #333;
+}
+
+
+
+
 /*footer*/
 
+
  footer { 
+
   position: relative;
   bottom: 0px;
   width: 100%;
-  background-color: white;
 }
 
  .footer1 {
@@ -228,3 +292,4 @@ z-index: 1001;
 
 Footer © 2022 GitHub,
 Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About */
+

@@ -47,3 +47,21 @@ function getProductsBySubCategory(int $subcategoryId): array
     return $data;
 }
 
+function getProductsByArticle(int $articleId): array
+{$db = connect();
+
+    $query = $db->prepare(
+        'SELECT *
+        FROM `products`
+        WHERE `article_id` = ?'
+    );
+
+    $query->execute([$articleId]);
+
+    $data = $query->fetchAll(PDO::FETCH_ASSOC);
+
+    return $data;
+
+
+
+}

@@ -10,9 +10,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
    <link rel="stylesheet" href="./css/caroussel.css">
-   <link rel="stylesheet" href="./css/nav.css">
+   <link rel="stylesheet" href="./css/style copy.css">
+  
 
 </head>
 <header>
@@ -39,16 +40,7 @@
         </div>
   </div>
 <!-- carousel -->
-    
-</body>
-
-
 <?php
   require_once 'includes/footer.php';
 ?>
-
-<!-- git add .
-git commit -m "first commit" 
-git -u origin master-->
-
-
+</body>
