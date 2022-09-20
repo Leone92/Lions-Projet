@@ -5,7 +5,7 @@
     <div id="top">
         <a>
             <p>
-                <a class="titre">THE LION'S TRAINING </a>
+                <a class="titre">THE LION'S TRAINING</a>
                 <a href="./connexion.php" class="login"> <img src="./Images/Logo connexion.PNG" alt="connexion"> Connexion
            
                 </a>
@@ -22,7 +22,7 @@
             </div>
 -->
     <nav class="navbar">
-          <a id="img" href="./index.php" class="logo">
+          <a id="img" href="./index copy 2.php" class="logo">
             <img src="./Images/logo seul.png" alt=" The Lion's Trainning" ></a>
 
         <div class=" navlinks">
